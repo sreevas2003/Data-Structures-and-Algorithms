@@ -146,7 +146,7 @@ void loop(Node* head)
     }
     printf("Loop is Not detected\n");
 }
-void loop(Node* head)
+void loop_remove(Node* head)
 {
     Node *slow=head,*fast=head;
     while(fast && fast->next)
